@@ -16,6 +16,7 @@ gem 'bootstrap-sass', '3.4.1'
 gem 'devise'
 gem  'pg'
 gem 'trix'
+gem 'carrierwave', '~> 2.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
